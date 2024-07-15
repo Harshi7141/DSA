@@ -74,7 +74,7 @@ class SLL:
                 if temp.next.item ==data:
                     temp.next=temp.next.next
                     break
-                    temp=temp.next
+                temp=temp.next
 
 mylist=SLL()
 mylist.insert_first_node(10)
