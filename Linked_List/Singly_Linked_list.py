@@ -57,8 +57,8 @@ class SLL:
         else:
             temp=self.start
             while temp.next.next is not None:
-                temp.next=temp.next.next
                 temp=temp.next
+            temp.next=None
 
     def delete_Specific_node(self,data):
         if self.is_empty():
